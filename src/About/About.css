@@ -1,0 +1,16 @@
+.about-container {
+    display: flex;
+}
+
+.about-container .about-section,
+.about-container .chapter-content {
+    width: 50%;
+}
+
+.about-container .about-section {
+    background-color: #f7484e;
+}
+
+.about-container .nav-bar {
+    position: initial;
+}
