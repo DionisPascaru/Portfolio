@@ -1,0 +1,29 @@
+.travel-container {
+    display: flex;
+}
+
+.travel-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.travel-section .nav-bar a {
+    color: #000000;
+    font-weight: 500;
+}
+
+.travel-section,
+.travel-chapter {
+    width: 50%
+}
+
+.travel-chapter {
+    overflow-y: overlay;
+}
+
+.travel-chapter img {
+    width: 100%;
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import headerImage from './header-img.jpg';
+import images from './images/images';
 import './App.css';
 import useWindowDimensions from './components/FixedResize';
 
@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App" style={useWindowDimensions()}>
       <header className="App-header" >
-        <img src={headerImage} className="header-img" alt="logo" />
+        <img src={images.headerImage} className="header-img" alt="logo" />
         <div className="nav-bar">
             <a href="#" 
               className="nav-link"              

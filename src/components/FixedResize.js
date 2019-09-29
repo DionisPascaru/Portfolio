@@ -1,10 +1,9 @@
-import React, { useEffect, useState } from "react";
-import ReactDOM from "react-dom";
+import { useEffect, useState } from "react";
+
 
 function getWindowDimensions() {
-  const { innerWidth: width, innerHeight: height } = window;
+  const { innerHeight: height } = window;
   return {
-    width,
     height
   };
 }
@@ -25,16 +24,3 @@ export default function useWindowDimensions() {
 
   return windowDimensions;
 }
-
-const Component = () => {
-  const { height, width } = useWindowDimensions();
-
-  return (
-    <div>
-      width: {width} ~ height: {height}
-    </div>
-  );
-};
-
-// const rootElement = document.getElementById("root");
-// ReactDOM.render(<Component />, rootElement);

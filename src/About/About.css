@@ -14,3 +14,40 @@
 .about-container .nav-bar {
     position: initial;
 }
+
+.nav-bar {
+    font-weight: 500;
+}
+
+.about-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.chapter-content {
+    overflow-y: overlay;
+    scrollbar-width: none;
+}
+
+div.chapter-content::-webkit-scrollbar {
+    display: none;
+}
+
+.chapter-content .content {
+    padding: 100px 20%;   
+}
+
+div.hex-image {
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+  background: url("../images/me.jpg") no-repeat;
+  background-size: cover;
+  margin: 70px auto 10px;
+  height: 200px;
+  width: 200px; 
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
