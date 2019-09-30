@@ -1,14 +1,13 @@
 import React from 'react';
 import './About.css';
 import '../components/general.css';
-import useWindowDimensions from '../components/FixedResize';
 import images from '../images/images';
 
 
 function About() {
 
     return (
-        <div className="about-container" style={useWindowDimensions()}>
+        <div className="about-container">
             <div className="about-section">
                 <img src={images.aboutIcon}/>
                 <div className="nav-bar" >

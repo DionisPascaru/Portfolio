@@ -1,11 +1,10 @@
 import React from 'react';
 import images from './images/images';
 import './App.css';
-import useWindowDimensions from './components/FixedResize';
 
 function App() {
   return (
-    <div className="App" style={useWindowDimensions()}>
+    <div className="App">
       <header className="App-header" >
         <img src={images.headerImage} className="header-img" alt="logo" />
         <div className="nav-bar">

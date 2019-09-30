@@ -1,5 +1,6 @@
 .travel-container {
     display: flex;
+    height: 100vh;
 }
 
 .travel-section {
@@ -20,10 +21,28 @@
     width: 50%
 }
 
+.crop-image {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.crop-image:hover{
+    overflow: hidden;
+}
+
 .travel-chapter {
     overflow-y: overlay;
+    scrollbar-width: none;
 }
 
 .travel-chapter img {
     width: 100%;
+    transition: transform 10s ease;
 }
+
+.travel-chapter img:hover {
+    transform: scale(1.2);
+    transition: transform 10s ease;
+}
+
+  

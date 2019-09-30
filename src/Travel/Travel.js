@@ -1,11 +1,10 @@
 import React from 'react';
 import images from '../images/images';
-import useWindowDimensions from '../components/FixedResize';
 import './Travel.css';
 
 function Travel() {
     return (
-        <div className="travel-container" style={useWindowDimensions()}>
+        <div className="travel-container">
             <div className="travel-section">
                 <img src={images.travelIcon} />
                 <div className="nav-bar" >
@@ -27,16 +26,13 @@ function Travel() {
                 </div>
             </div>
             <div className="travel-chapter">
-                <div className="crop-image" style={useWindowDimensions()} >
+                <div className="crop-image" >
                     <img src={images.blockImg1}/>
                 </div>
-                <div className="crop-image" style={useWindowDimensions()} >
+                <div className="crop-image">
                     <img src={images.blockImg2}/>
                 </div>
-                <div className="crop-image" style={useWindowDimensions()} >
-                    <img src={images.blockImg3}/>
-                </div>
-                <div className="crop-image" style={useWindowDimensions()}>
+                <div className="crop-image">
                     <img src={images.blockImg4}/>
                 </div>
             </div>
