@@ -1,6 +1,6 @@
 import React from 'react';
 import images from './images/images';
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
@@ -8,6 +8,8 @@ function App() {
       <header className="App-header" >
         <img src={images.headerImage} className="header-img" alt="logo" />
         <div className="nav-bar">
+            <h1>My Horizon</h1>
+            <p>Take a deep breath</p>
             <a href="#" 
               className="nav-link"              
             >

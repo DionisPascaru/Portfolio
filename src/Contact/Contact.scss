@@ -1,0 +1,19 @@
+.contact-section {
+    position: relative;
+    background-color: #292929;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (min-width: 768px){
+    .contact-container {
+        display: flex;
+    }
+
+    .contact-section,
+    .contact-chapter {
+        width: 50%;
+    }
+}
