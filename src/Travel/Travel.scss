@@ -47,6 +47,10 @@
     }
 }
 
+.chapter-subtitle div:hover {
+    cursor: pointer;
+}
+
 @media only screen and (min-width: 768px){
     .travel-container {
         display: flex;
@@ -68,15 +72,12 @@
             width: 25%;
             transition: 1s width cubic-bezier(1,1,1,1);
         }
+    }
 
-        .travel-chapter {
-            width: 75%;
-            transition: 1s width cubic-bezier(1,1,1,1);
-        }
-
-        .travel-content {
-            display: block;
-        }
+    .open {
+        width: 75%;
+        transition: 1s width cubic-bezier(1,1,1,1);
+        display: block;
     }
 
     .travel-content {
